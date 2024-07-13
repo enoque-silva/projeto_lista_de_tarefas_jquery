@@ -1,0 +1,131 @@
+/* Define estilos básicos para todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+} 
+
+/* Estiliza o elemento HTML, centralizando conteúdo */
+html{    
+    display: flex;
+    justify-content: center;
+    height: 78.6%; /* Define a altura do elemento HTML */
+    background-color: #f5f5f7; /* Cor de fundo para o documento */
+}
+
+/* Define estilos para o contêiner principal */
+.conteiner{
+    padding-top: 20%; /* Espaço acima do contêiner */
+    text-align: center; /* Alinhamento do texto centralizado */
+    max-width: 720px; /* Largura máxima do contêiner */
+    margin-bottom: 34px; /* Margem inferior */
+}
+
+/* Estiliza cabeçalhos de nível 1 */
+h1{
+    margin-bottom: 17px; /* Espaço abaixo do cabeçalho */
+    font-weight: 700; /* Peso da fonte (negrito) */
+}
+
+/* Estiliza formulários */
+form{
+    margin-bottom: 17px; /* Margem inferior do formulário */
+}
+
+/* Estiliza campos de entrada e botões dentro do formulário */
+form input, button{    
+    padding: 8px 17px; /* Espaçamento interno */
+    border-radius: 34px; /* Raio do canto arredondado */
+    font-size: 17px; /* Tamanho da fonte */
+}
+
+/* Estiliza campo de entrada dentro do formulário */
+form input{
+    color: #1d1d1f; /* Cor do texto */
+    border: 1px solid #d2d2d7; /* Estilo e cor da borda */
+}
+
+/* Estiliza campo de entrada focado */
+form input:focus{
+    outline: none; /* Remove o contorno de foco */
+    border: 1px solid #006fff; /* Cor da borda quando focado */
+}
+
+/* Estiliza botão dentro do formulário */
+form button{
+    border: none; /* Remove a borda do botão */
+    background-color: #006fff; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    margin-left: 8px; /* Margem à esquerda */
+    cursor: pointer; /* Cursor ao passar o mouse */
+}
+
+/* Estiliza botão ao passar o mouse */
+form button:hover{
+    background-color:  #007aff; /* Cor de fundo do botão ao passar o mouse */
+}
+
+/* Estiliza linha horizontal */
+hr{
+    margin-top: 34px; /* Margem superior */
+    margin-bottom: 17px; /* Margem inferior */
+    border: 1px solid #e8e8e8; /* Estilo e cor da borda */
+}
+
+/* Estiliza cabeçalhos de nível 2 */
+h2{
+    color: #515154; /* Cor do texto */
+    font-weight: 400; /* Peso da fonte */
+    margin-bottom: 17px; /* Espaço abaixo do cabeçalho */
+    display: none; /* Inicialmente escondido */
+}
+
+/* Estiliza listas não ordenadas e seus itens */
+ul li{
+    list-style: none; /* Remove marcadores de lista */
+    padding: 4px; /* Espaçamento interno dos itens */
+}
+
+/* Estiliza divisões dentro dos itens da lista */
+li div{
+    padding: 8px; /* Espaçamento interno das divisões */
+    background-color: #f5f5f5; /* Cor de fundo das divisões */
+    border: 1px solid #dddddd; /* Estilo e cor da borda */
+    margin-bottom: 8px; /* Margem inferior */
+}
+
+/* Estiliza links dentro das divisões da lista */
+li div a{
+    text-decoration: none; /* Remove decoração de link */
+    color: #515154; /* Cor do texto do link */
+}
+
+/* Estiliza o rodapé fixo na parte inferior da página */
+footer{
+    background-color: #fff; /* Cor de fundo do rodapé */
+    color: #515154; /* Cor do texto */
+    position: fixed; /* Posicionamento fixo */
+    bottom: 0; /* Fixa na parte inferior */
+    right: 0; /* Alinha à direita */
+    left: 0; /* Alinha à esquerda */
+    display: flex; /* Exibe como flexível */
+    padding: 8px; /* Espaçamento interno */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 50px; /* Altura fixa do rodapé */
+    border-top: 1px solid #e9e9e9; /* Borda superior */
+    font-weight: 600; /* Peso da fonte */
+}
+
+/* Estiliza classe para nova tarefa (inicialmente oculta) */
+.novaTarefa{
+    cursor: pointer; /* Cursor ao passar o mouse */
+    display: none; /* Inicialmente oculto */
+}
+
+/* Estiliza classe para tarefa realizada (com texto riscado em vermelho) */
+.tarefaRealizada{
+    color: red; /* Cor do texto */
+    text-decoration: line-through; /* Texto riscado */
+}
