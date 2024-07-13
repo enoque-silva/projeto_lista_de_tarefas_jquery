@@ -92,7 +92,7 @@ ul li{
 
 /* Estiliza divisões dentro dos itens da lista */
 li div{
-    padding: 8px; /* Espaçamento interno das divisões */
+    padding: 10px; /* Espaçamento interno das divisões */
     background-color: #fcfcfc; /* Cor de fundo das divisões */
     border: 1px solid #d2d2d7; /* Estilo e cor da borda */
     margin-bottom: 8px; /* Margem inferior */
