@@ -93,9 +93,10 @@ ul li{
 /* Estiliza divisões dentro dos itens da lista */
 li div{
     padding: 8px; /* Espaçamento interno das divisões */
-    background-color: #f6f6f6; /* Cor de fundo das divisões */
-    border: 1px solid #dddddd; /* Estilo e cor da borda */
+    background-color: #fcfcfc; /* Cor de fundo das divisões */
+    border: 1px solid #d2d2d7; /* Estilo e cor da borda */
     margin-bottom: 8px; /* Margem inferior */
+    box-shadow: 5px 5px 10px 2px rgba(209, 209, 214, 0.2);
 }
 
 /* Estiliza links dentro das divisões da lista */
