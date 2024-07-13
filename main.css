@@ -20,6 +20,9 @@ html{
     text-align: center; /* Alinhamento do texto centralizado */
     max-width: 720px; /* Largura máxima do contêiner */
     margin-bottom: 34px; /* Margem inferior */
+
+    padding-left: 34px;
+    padding-right: 34px;
 }
 
 /* Estiliza cabeçalhos de nível 1 */
@@ -71,7 +74,7 @@ form button:hover{
 hr{
     margin-top: 34px; /* Margem superior */
     margin-bottom: 17px; /* Margem inferior */
-    border: 1px solid #e8e8e8; /* Estilo e cor da borda */
+    border: 1px solid #ececec; /* Estilo e cor da borda */
 }
 
 /* Estiliza cabeçalhos de nível 2 */
@@ -90,7 +93,7 @@ ul li{
 /* Estiliza divisões dentro dos itens da lista */
 li div{
     padding: 8px; /* Espaçamento interno das divisões */
-    background-color: #f5f5f5; /* Cor de fundo das divisões */
+    background-color: #f6f6f6; /* Cor de fundo das divisões */
     border: 1px solid #dddddd; /* Estilo e cor da borda */
     margin-bottom: 8px; /* Margem inferior */
 }
