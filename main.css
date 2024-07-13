@@ -59,6 +59,7 @@ form button{
     color: #fff; /* Cor do texto do botão */
     margin-left: 8px; /* Margem à esquerda */
     cursor: pointer; /* Cursor ao passar o mouse */
+    margin-top: 8px;
 }
 
 /* Estiliza botão ao passar o mouse */
@@ -84,7 +85,6 @@ h2{
 /* Estiliza listas não ordenadas e seus itens */
 ul li{
     list-style: none; /* Remove marcadores de lista */
-    padding: 4px; /* Espaçamento interno dos itens */
 }
 
 /* Estiliza divisões dentro dos itens da lista */
